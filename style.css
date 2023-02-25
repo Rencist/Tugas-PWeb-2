@@ -157,3 +157,12 @@ input[type='submit']:hover {
     grid-gap: 10px;
   }
 }
+
+@media (max-width: 768px) {
+  .container__form {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 10rem;
+  }
+}
